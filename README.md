@@ -8,4 +8,4 @@ GRU出來的結果分縣市放在資料夾內。
 紀錄模板整理好了方便使用。  
 D：20230217  
 
-Hope we'll pass.
+Hope we'll pass.  
