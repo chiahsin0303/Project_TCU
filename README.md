@@ -1,5 +1,6 @@
 # project_tcu
 `Student Graduation Project.`
+`Hope we'll pass.` 
 
 - #### flask最後編輯日期：20221128  
   >###### 乾喔我終於弄好防呆了：)  
@@ -12,4 +13,4 @@
   >###### 媽耶 5000的也跑太久 鬼吧@@ 【D：20230219】  
   >###### 跑了2天才跑完6個縣市，結合架構真的好久QAQ 【D：20230220】  
 
-`Hope we'll pass.`  
+ 
