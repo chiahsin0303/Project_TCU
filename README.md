@@ -1,6 +1,5 @@
 # project_tcu
-`Student Graduation Project.`
-`Hope we'll pass.` 
+`Student Graduation Project.` `Hope we'll pass.` 
 
 - #### flask最後編輯日期：20221128  
   >###### 乾喔我終於弄好防呆了：)  
