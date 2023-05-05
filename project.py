@@ -386,7 +386,7 @@ def create():
 create()
 
 
-# In[ ]:
+# In[2]:
 
 
 # 初始化sqlalchemy
@@ -1031,6 +1031,7 @@ def second_web():
     
     # 全國人數加總list
     data_all = []
+    data_allin = 0
     for i in range(len(data_re09)): 
         total = (int(data_re01[i]) + int(data_re02[i]) + int(data_re03[i]) + int(data_re04[i]) + 
                  int(data_re05[i]) + int(data_re06[i]) + int(data_re07[i]) + int(data_re08[i]) + 
@@ -1040,7 +1041,9 @@ def second_web():
                  int(data_re21[i]) + int(data_re22[i]))
         print(total)
         data_all.append(total)
+        data_allin += total
     print(data_all)
+    print(data_allin)
     
     # 日期最後一天的確診人數
     today_data = data_all[-1]
@@ -1079,6 +1082,7 @@ def second_web():
     print("today_data：", today_data, type(today_data)) #日期最後一天的全國確診人數
     print("data_TPE：", data_TPE, type(data_TPE)) #日期最後一天的TPE確診人數
     print("list_all：", list_all, type(list_all)) #合併list
+    print("data_allin：", data_allin, type(data_allin)) #所有確診人數加總
     
     #with urllib.request.urlopen(second_url) as response:
         #second = response.read()
@@ -1343,10 +1347,4 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0')
     #app.run()
     #db.close() #關閉連線
-
-
-# In[ ]:
-
-
-
 
